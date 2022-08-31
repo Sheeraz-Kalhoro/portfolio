@@ -1,13 +1,161 @@
-.App {
-  text-align: center;
+.App{
+  font-family:Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+.App-header{
+  display: flex;
+  padding: 20px;
+  margin: 0 ;
+}
+.logo{
+  flex: 1;
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+.logo a{
+  color: #2C4B67;
+  text-decoration: none;
+}
+.nav {
+  /* color: #385A64; */
+  flex: 5;
+}
+.nav a{
+  color: #385A64;
+  text-decoration: none;
+}
+.nav-list{
+  margin: 22px 0 0 0;
+  display: flex;
+  list-style-type: none;
+}
+.nav-list li{
+  
+  margin-right: 20px;
+}
+.home{
+  display: flex;
+  
+}
+.text-box{
+  flex: 1;
+  margin-top: 70px;
+  color:#112b46;
+  
+}
+.toggle{
+  padding:20px 0px 10px 120px;
+  color: white;
+  cursor: pointer;
+  background:#57548D;
+}
+.text-box > p{
+  line-height: 12px;
+}
+.text-box > h1{
+  font-size: 48px;
+  line-height: 16px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.text-box >h3{
+  background-color: #57548D;
+  padding: 10px 0 10px 120px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  /* border-top-right-radius: 50px; */
+}
+.text-box > p, h1{
+  margin-left: 120px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-box img{
+  right: auto;
+  width: 800px;
+  object-fit: cover;
+  height: 685px;
+  border-radius: 50%;
+}
+.contact{
+  width: 400px;
+  display: flex;
+  justify-content:center;
+}
+.contact > form{
+  display: flex;
+  flex-direction: column;
+}
+.contact > form > input{
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid rgb(191, 200, 202);
+  text-indent: 10px;
+  margin: 10px 0;
+}
+.btn{
+  padding: 8px;
+  width: 90px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(40, 119, 150);
+  cursor: pointer;
+  margin: 10px 0;
+}
+.btn:hover{
+  background-color: darkcyan;
+}
+.education{
+  background-color:#112b46;
+  padding: 10px;
+  color: white;
+  max-width: 300px;
+  box-shadow: 2px 2px 4px #385A64;
+}
+main > h4{
+  text-indent:30px ;
+}
+.main-education{
+  display: flex;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.skill-card{
+  background-color: #57548D;
+  /* max-width: 500px; */
+  width: 300px;
+  padding: 10px;
+  color: white;
+}
+.skills{
+  display: flex;
+  padding:20px 0;
+  justify-content: space-around;
+}
+footer{
+  display: flex;
+  /* margin: 10px; */
+  padding: 10px 100px;
+  background: gainsboro;
+  color: #112b46;
+}
+.aboutme{
+  max-width: 300px;
+}
+.links{
+  margin-left: 10px;
+}
+.links a{
+  display: block;
+  text-decoration: none;
+  color: #112b46;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +183,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
