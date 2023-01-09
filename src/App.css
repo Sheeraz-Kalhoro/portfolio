@@ -125,7 +125,7 @@
 }
 .education:hover{
   transform: translateY(-25px);
-  /* transform: scale(1.2); */
+  /* transform: scale(1.1); */
   box-shadow: 0px 1.47px 9.99px gainsboro;
 }
 main > h4{
@@ -151,8 +151,7 @@ main > h4{
 
 }
 .skill-card:hover{
-  transform: translateY(-25px);
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 0px 1.47px 9.99px gainsboro;
 }
 .skills{
