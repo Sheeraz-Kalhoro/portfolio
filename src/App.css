@@ -65,7 +65,6 @@
   color: white;
   font-size: 24px;
   font-weight: 400;
-  /* border-top-right-radius: 50px; */
 }
 .text-box > p, h1{
   margin-left: 120px;
@@ -107,26 +106,31 @@
   margin: 10px 0;
 }
 .btn:hover{
-  background-color: darkcyan;
+  background-color: rgb(183, 153, 253);
 }
 .education{
-  background-color:#112b46;
+  background-color:#F2F2F2;
   padding: 10px;
-  color: white;
+  color: #57548D;
   max-width: 300px;
-  box-shadow: 2px 2px 4px #385A64;
+  border-radius: 5px;
+  box-shadow: 0px 1.47px 9.99px #385A64;
+  
 }
 main > h4{
   text-indent:30px ;
 }
 .main-education{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .skill-card{
+  border-radius: 5px;
+  box-shadow: 0px 1.47px 9.99px #385A64;
   background-color: #57548D;
-  /* max-width: 500px; */
   width: 300px;
   padding: 10px;
   color: white;
@@ -134,11 +138,12 @@ main > h4{
 .skills{
   display: flex;
   padding:20px 0;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 footer{
   display: flex;
-  /* margin: 10px; */
   padding: 10px 100px;
   background: gainsboro;
   color: #112b46;
