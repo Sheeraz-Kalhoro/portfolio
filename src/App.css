@@ -21,12 +21,16 @@
   /* color: #385A64; */
   flex: 5;
 }
-.nav a{
+.nav .nav-list a{
   color: #385A64;
   text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.nav .nav-list a:hover{
+  border-bottom:4px solid #57548D;
+
 }
 .nav-list{
-  margin: 22px 0 0 0;
   display: flex;
   list-style-type: none;
 }
@@ -114,8 +118,15 @@
   color: #57548D;
   max-width: 300px;
   border-radius: 5px;
+  box-shadow: 0px 1.47px 5.99px #385A64;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.01s;
+  cursor: pointer;
+}
+.education:hover{
+  transform: translateY(-25px);
+  /* transform: scale(1.2); */
   box-shadow: 0px 1.47px 9.99px #385A64;
-  
 }
 main > h4{
   text-indent:30px ;
@@ -134,6 +145,15 @@ main > h4{
   width: 300px;
   padding: 10px;
   color: white;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.01s;
+  cursor: pointer;
+
+}
+.skill-card:hover{
+  transform: translateY(-25px);
+  transform: scale(1.2);
+  box-shadow: 0px 1.47px 9.99px #385A64;
 }
 .skills{
   display: flex;
