@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Education from './components/Education'
+import { Player } from '@lottiefiles/react-lottie-player';
 import Skills from './components/Skills';
 import Header from './components/Header'
 import Main from './components/Main';
