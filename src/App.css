@@ -40,10 +40,14 @@
 }
 .home{
   display: flex;
+  justify-content: space-around;
   
 }
 .text-box{
-  flex: 1;
+  /* flex: 1;Y */
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
   margin-top: 70px;
   color:#112b46;
   
@@ -76,11 +80,11 @@
 }
 
 .image-box .player{
-  right: auto;
+  /* right: auto; */
   width: 50vw;
-  object-fit: cover;
-  height: 685px;
-  border-radius: 50%;
+  /* object-fit: cover; */
+  /* height: 685px; */
+  /* border-radius: 50%; */
 }
 .contact{
   width: 400px;
@@ -167,9 +171,9 @@ footer{
   background: gainsboro;
   color: #112b46;
 }
-.aboutme{
+/* .aboutme{
   max-width: 300px;
-}
+} */
 .contact-section{
   display: flex;
   justify-content: space-around;

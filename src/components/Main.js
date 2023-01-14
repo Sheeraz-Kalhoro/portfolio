@@ -1,5 +1,5 @@
 import Contact from './Contact';
-import { Player } from '@lottiefiles/react-lottie-player';
+// import { Player } from '@lottiefiles/react-lottie-player';
 export default function Main(props){
     return(
         <main>
@@ -22,13 +22,13 @@ export default function Main(props){
             </details>
           </div>
             <div className='image-box'>
-            {/* <img src={props.coderImage} alt='coder'/> */}
-            <Player 
+            <img src={props.coderImage} alt='coder'/>
+            {/* <Player 
             src='https://assets10.lottiefiles.com/packages/lf20_p1qiuawe.json'
             loop
             className="player"
             autoplay
-            />
+            /> */}
             </div>
         </section>
         <h4 id='education'>Education</h4>
@@ -42,11 +42,11 @@ export default function Main(props){
         <h4 id='contact'>Contact Form</h4>
         <div className='contact-section'>
         <Contact />
-        <Player
+        {/* <Player
           src='https://assets4.lottiefiles.com/private_files/lf30_ssbiwdab.json'
           loop
           autoplay
-          />
+          /> */}
           </div>
       </main>
     )
