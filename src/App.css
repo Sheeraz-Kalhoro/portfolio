@@ -75,9 +75,9 @@
 
 }
 
-.image-box img{
+.image-box .player{
   right: auto;
-  width: 800px;
+  width: 50vw;
   object-fit: cover;
   height: 685px;
   border-radius: 50%;
@@ -169,6 +169,10 @@ footer{
 }
 .aboutme{
   max-width: 300px;
+}
+.contact-section{
+  display: flex;
+  justify-content: space-around;
 }
 .links{
   margin-left: 10px;
