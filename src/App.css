@@ -79,12 +79,12 @@
 
 }
 
-.image-box .player{
+.image-box img{
   /* right: auto; */
   width: 50vw;
-  /* object-fit: cover; */
-  /* height: 685px; */
-  /* border-radius: 50%; */
+  object-fit: cover;
+  height: 685px;
+  border-radius: 50%;
 }
 .contact{
   width: 400px;
